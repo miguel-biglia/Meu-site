@@ -1,0 +1,134 @@
+Etapa 2 — Cabeçalho
+
+Faça um header com:
+
++------------------------------------------------+
+| Arduino Store     Início Produtos Sobre Contato|
++------------------------------------------------+
+
+Aprender:
+
+<header>
+<nav>
+Flexbox
+Etapa 3 — Banner Principal
++------------------------------------------------+
+|                                                |
+|      Componentes para Arduino e Robótica       |
+|                                                |
+|           [ Ver Produtos ]                     |
+|                                                |
++------------------------------------------------+
+
+Aprender:
+
+Imagem de fundo
+Botões
+Centralização
+Etapa 4 — Seção de Produtos
+
+Criar 6 cards.
+
+Exemplo:
+
++----------------+
+|    IMAGEM      |
+| Arduino Uno    |
+| R$ 49,90       |
+| [Comprar]      |
++----------------+
+
+Produtos:
+
+Arduino Uno
+Arduino Nano
+Protoboard
+HC-SR04
+Servo SG90
+Display LCD
+
+Aprender:
+
+CSS Grid
+Cards
+Hover
+Etapa 5 — Sobre a Loja
+Quem somos
+
+A Arduino Store oferece componentes
+para projetos de robótica e eletrônica.
+
+Aprender:
+
+Seções
+Espaçamento
+Tipografia
+Etapa 6 — Rodapé
++--------------------------------+
+| Arduino Store                  |
+| WhatsApp | Instagram | Email   |
+| © 2026                        |
++--------------------------------+
+
+Aprender:
+
+Footer
+Organização visual
+Etapa 7 — Melhorar o Visual
+
+Adicionar:
+
+Sombras
+Bordas arredondadas
+Animações suaves
+
+Exemplo:
+
+.card:hover {
+    transform: scale(1.05);
+}
+Etapa 8 — Responsividade
+
+Fazer funcionar no celular.
+
+Aprender:
+
+@media (max-width: 768px) {
+
+}
+Etapa 9 — Página de Produto
+
+Ao clicar em um produto:
+
+Arduino Uno
+
+[IMAGEM]
+
+Descrição
+
+Preço: R$ 49,90
+
+[Comprar]
+
+Criar:
+
+paginas/
+├── arduino-uno.html
+├── sensor-hc-sr04.html
+├── servo-sg90.html
+Etapa 10 — Projeto Final
+
+Resultado:
+
+Arduino Store
+│
+├── Menu funcional
+├── Banner
+├── Catálogo de produtos
+├── Página de cada produto
+├── Sobre
+├── Contato
+├── Responsivo
+└── Visual moderno
+
+Esse projeto já é um ótimo nível para colocar no GitHub e mostrar que você sabe trabalhar com HTML, CSS, Flexbox, Grid, links entre páginas e responsividade.
