@@ -76,7 +76,13 @@ button:hover{
     background-color: rgba(60, 63, 221, 0.849);
 }
 
-#escritabotao{
+button:focus{
+    background-color: brown;
+}
+
+
+
+#escrita-botao{
     text-decoration: none;
     color: black;
 }
