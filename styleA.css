@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: lightgray; 
+    background-color: lightgray;
 }
 
 header{
@@ -39,3 +39,14 @@ nav a{
     padding: 5px;
     border-radius: 5px;
  }
+
+ main{
+    text-align: center;
+ }
+
+ main #produtos{
+    width: 200px;
+    height: 25px;
+ }
+
+ 
