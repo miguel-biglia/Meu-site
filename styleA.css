@@ -49,6 +49,7 @@ header a:hover{
 
 main{
     text-align: center;
+    margin-left: 5px;
 }
 
 main h2{
@@ -78,4 +79,22 @@ button:hover{
 #escritabotao{
     text-decoration: none;
     color: black;
+}
+
+aside{
+    text-align: center;
+    margin: 10px;
+}
+
+aside p{
+    color: rgb(95, 116, 161);
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+footer{
+    margin-top: 10em;
+    background-color: cadetblue;
+    text-align: center;
 }
