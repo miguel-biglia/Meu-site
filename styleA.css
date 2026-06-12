@@ -105,3 +105,65 @@ footer{
     background-color: cadetblue;
     text-align: center;
 }
+
+
+@media (max-width: 600px){
+
+    header{
+        height: auto;
+    }
+
+    header img{
+        width: 100%;
+        height: auto;
+    }
+
+    nav{
+        text-align: center;
+    }
+
+    nav a{
+       
+        margin: 12px;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    main h2{
+        font-size: 1.3em;
+    }
+
+    footer{
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px){
+
+    header{
+        height: 350px;
+    }
+
+    header img{
+        width: 80%;
+        height: auto;
+    }
+
+    h1{
+        font-size: 4em;
+    }
+
+    nav{
+        font-size: 1.2em;
+    }
+
+    main h2{
+        font-size: 2em;
+    }
+
+    footer{
+        font-size: 1.1em;
+    }
+}
