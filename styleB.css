@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@300;400;700&display=swap');
 
 *{
     margin: 0;
@@ -7,11 +7,24 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background: linear-gradient(137deg,rgba(42, 123, 155, 1) 94%, rgba(42, 123, 155, 1) 100%, rgba(189, 217, 200, 1) 100%, rgba(237, 221, 83, 1) 100%);
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+    margin: 10px;
+}
+
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* duas colunas */
+    /* duas colunas */
+    grid-template-columns: 1fr 1fr; 
     gap: 20px;
-    width: 70%;
+    width: 99%;
 }
 
 main div {
@@ -20,3 +33,74 @@ main div {
     text-align: center;
 }
 
+
+p{
+    font-size: 1.5em;
+}
+
+
+div{
+    background: linear-gradient(to right, rgb(68, 138, 204), rgb(78, 128, 168), rgb(68, 138, 204));
+    border-radius: 10px;
+}
+
+button{
+    margin-top: 4px;
+    height: 30px;
+    width: 150px;
+    background-color: rgba(68, 68, 190, 0.842);
+    border-radius: 7px;
+    border: none;
+}
+
+button:hover{
+    background-color: rgba(33, 33, 185, 0.842);
+    padding: 5px;
+}
+
+img{
+    width: 250px;
+    height: 225px;
+}
+
+
+/* TABLETS */
+@media (max-width: 900px){
+
+    main{
+        grid-template-columns: 1fr;
+    }
+
+    img{
+        width: 220px;
+        height: auto;
+    }
+
+}
+
+/* CELULARES */
+@media (max-width: 600px){
+
+    h1{
+        font-size: 1.5em;
+        padding: 10px;
+    }
+
+    main{
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 10px;
+    }
+
+    img{
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+    }
+
+    button{
+        width: 100%;
+        max-width: 150px;
+    }
+
+}

@@ -9,142 +9,141 @@
 
 body{
     background-color: lightgray;
+    overflow-x: hidden;
 }
+
+/* HEADER */
 
 header{
     text-align: center;
-    height: 250px;
-    width: auto;
     background-color: rgb(61, 61, 158);
-    border-radius: 5px;
     color: whitesmoke;
+    padding: 15px;
+    border-radius: 5px;
 }
 
 h1{
-    margin: 7px;
     font-family: 'Orbitron', sans-serif;
-    font-size: 2em;
+    font-size: 2.5em;
     letter-spacing: 3px;
+    margin-bottom: 10px;
 }
 
-nav {
-    text-align: left;
-    margin-top: 7px;
-    margin-bottom: 10px;
-    transition-duration: 1s;
+nav{
+    margin-top: 10px;
 }
 
 nav a{
     text-decoration: none;
     color: rgb(189, 189, 233);
     margin: 10px;
-    transition-duration: 0.5s;
+    transition: 0.3s;
 }
 
-header a:hover{
+nav a:hover{
     background-color: rgb(51, 51, 126);
     padding: 5px;
     border-radius: 5px;
 }
 
+/* BANNER */
+
+#banner{
+    width: 80%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+/* CONTEÚDO PRINCIPAL */
+
 main{
     text-align: center;
-    margin-left: 5px;
+    padding: 20px;
 }
 
 main h2{
     color: rgb(95, 116, 161);
     font-family: 'Orbitron', sans-serif;
     letter-spacing: 1px;
+    margin-bottom: 20px;
 }
 
-p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.1em;
-}
+/* BOTÃO */
 
 button{
-    margin: 10px;
     width: 250px;
     height: 40px;
     background-color: rgba(16, 12, 207, 0.699);
     border-radius: 7px;
     border: none;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 button:hover{
     background-color: rgba(60, 63, 221, 0.849);
-    transition-duration: 0.3s;
 }
-
-button:focus{
-    background-color: blue;
-}
-
-
 
 #escrita-botao{
     text-decoration: none;
     color: black;
 }
 
+/* SOBRE */
+
 aside{
     text-align: center;
-    margin: 10px;
+    padding: 20px;
 }
 
 aside p{
     color: rgb(95, 116, 161);
     font-family: 'Orbitron', sans-serif;
     letter-spacing: 1px;
-    font-size: 25px;
+    font-size: 1.5em;
 }
+
+/* RODAPÉ */
 
 footer{
-    margin-top: 10em;
     background-color: cadetblue;
     text-align: center;
+    padding: 15px;
+    margin-top: 30px;
 }
 
+/* CELULARES */
 
 @media (max-width: 600px){
 
-    header{
-        height: auto;
-    }
-
-    header img{
-        width: 100%;
-        height: auto;
+    h1{
+        font-size: 2em;
     }
 
     nav a{
-        margin: 12px;
-    }
-
-    h1{
-        font-size: 2em;
+        display: block;
+        margin: 12px 0;
     }
 
     main h2{
         font-size: 1.3em;
     }
 
-    footer{
-        text-align: center;
+    button{
+        width: 180px;
+    }
+
+    aside p{
+        font-size: 1.2em;
     }
 }
 
+/* TELAS GRANDES */
+
 @media (min-width: 1200px){
-
-    header{
-        height: 350px;
-    }
-
-    header img{
-        width: 80%;
-        height: auto;
-    }
 
     h1{
         font-size: 4em;
