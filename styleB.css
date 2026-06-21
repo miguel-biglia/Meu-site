@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body{
@@ -44,7 +44,14 @@ div{
     border-radius: 10px;
 }
 
+div:hover{
+    transition-duration: 0.4s;
+    padding: 5px;
+}
+
 button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
     margin-top: 4px;
     height: 30px;
     width: 150px;
@@ -62,6 +69,7 @@ img{
     width: 250px;
     height: 225px;
     border-radius: 4px;
+    background-color: transparent;
 }
 
 #servo{
