@@ -27,21 +27,18 @@ main {
     width: 99%;
 }
 
-main div {
-    border: 1px solid #b1b1b1;
-    padding: 10px;
-    text-align: center;
-}
-
-
 p{
     font-size: 1.5em;
+    margin-top: 4px;
 }
 
 
 div{
     background: linear-gradient(to right, rgb(68, 138, 204), rgb(78, 128, 168), rgb(68, 138, 204));
     border-radius: 10px;
+    border: 1px solid #b1b1b1;
+    padding: 10px;
+    text-align: center;
 }
 
 div:hover{
@@ -59,6 +56,7 @@ button{
     background-color: rgba(68, 68, 190, 0.842);
     border-radius: 7px;
     border: none;
+    letter-spacing: 1.1px;
 }
 
 button:hover{
@@ -71,12 +69,21 @@ img{
     width: 250px;
     height: 225px;
     border-radius: 4px;
-    background-color: transparent;
 }
 
 #servo{
     width: 250px;
     height: 220px;
+}
+
+#jumper{    
+    width: 250px;
+    height: 220px;
+}
+
+#leds{
+    width: 220px;
+    height: 215px;
 }
 
 /* TABLETS */
